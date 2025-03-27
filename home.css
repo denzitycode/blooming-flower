@@ -43,13 +43,16 @@ body {
   z-index: 10;
   --fl-speed: 0.8s;
 }
+
 .flower--1 {
   animation: moving-flower-1 4s linear infinite;
 }
+
 .flower--1 .flower__line {
   height: 70vmin;
   animation-delay: 0.3s;
 }
+
 .flower--1 .flower__line__leaf--1 {
   animation: blooming-leaf-right var(--fl-speed) 1.6s backwards;
 }
