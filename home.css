@@ -47,36 +47,28 @@ body {
 .flower--1 {
   animation: moving-flower-1 4s linear infinite;
 }
-
 .flower--1 .flower__line {
   height: 70vmin;
   animation-delay: 0.3s;
 }
-
 .flower--1 .flower__line__leaf--1 {
   animation: blooming-leaf-right var(--fl-speed) 1.6s backwards;
 }
-
 .flower--1 .flower__line__leaf--2 {
   animation: blooming-leaf-right var(--fl-speed) 1.4s backwards;
 }
-
 .flower--1 .flower__line__leaf--3 {
   animation: blooming-leaf-left var(--fl-speed) 1.2s backwards;
 }
-
 .flower--1 .flower__line__leaf--4 {
   animation: blooming-leaf-left var(--fl-speed) 1s backwards;
 }
-
 .flower--1 .flower__line__leaf--5 {
   animation: blooming-leaf-right var(--fl-speed) 1.8s backwards;
 }
-
 .flower--1 .flower__line__leaf--6 {
   animation: blooming-leaf-left var(--fl-speed) 2s backwards;
 }
-
 .flower--2 {
   left: 50%;
   transform: rotate(30deg);
