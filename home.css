@@ -76,6 +76,7 @@ body {
 .flower--1 .flower__line__leaf--6 {
   animation: blooming-leaf-left var(--fl-speed) 2s backwards;
 }
+
 .flower--2 {
   left: 50%;
   transform: rotate(30deg);
