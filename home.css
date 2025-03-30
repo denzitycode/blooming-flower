@@ -64,6 +64,7 @@ body {
 .flower--1 .flower__line__leaf--3 {
   animation: blooming-leaf-left var(--fl-speed) 1.2s backwards;
 }
+
 .flower--1 .flower__line__leaf--4 {
   animation: blooming-leaf-left var(--fl-speed) 1s backwards;
 }
